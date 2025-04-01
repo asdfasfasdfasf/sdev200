@@ -16,11 +16,13 @@ public class Main {
         boolean filled = input.nextBoolean();
 
         Triangle triangle = new Triangle(side1, side2, side3);
+        triangle.setColor(color);
+        triangle.setFilled(filled);
 
         System.out.println("\nTriangle details:");
         System.out.printf("Area: %.2f\n", triangle.getArea());
         System.out.printf("Perimeter: %.2f\n", triangle.getPerimeter());
-        System.out.println("Color: " + color);
-        System.out.println("Filled: " + filled);
+        System.out.println("Color: " + triangle.getColor());
+        System.out.println("Filled: " + triangle.isFilled());
     }
 }
