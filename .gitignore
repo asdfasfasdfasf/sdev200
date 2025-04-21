@@ -1,0 +1,21 @@
+# Gradle
+.gradle/
+build/
+gradle-app.setting
+
+# IDE files (if using)
+.idea/
+*.iml
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Java files
+*.class
+*.jar
+*.war
+hs_err_pid*
+
+switch.sh
